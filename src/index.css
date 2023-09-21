@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  margin-top: 30px;
+}
+
+.video-container {
+  border-radius: 20px;
+  width: 250px;
+  left: 0;
+  right: 0;
+  margin: 30px auto;
+}
+
+.video-container video {
+  border: 1px solid #ccc;
+}
+
+.button-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.button-container button {
+  font-size: 20px;
+}
