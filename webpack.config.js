@@ -1,7 +1,3 @@
 module.exports = {
-  resolve: {
-    fallback: {
-      "fs": false
-    },
-  }
-}
+  devtool: 'source-map',
+};
