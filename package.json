@@ -18,6 +18,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
