@@ -23,6 +23,9 @@
     "os": false,
     "path": false
   },
+  "resolutions": {
+    "fs": "0.0.1-security"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

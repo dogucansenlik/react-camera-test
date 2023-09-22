@@ -1,15 +1,8 @@
-module.exports = function (webpackEnv) {
+// webpack.config.js
+module.exports = {
   // ...
-  return {
-   // ...
-    resolve: {
-      // ...
-      fallback: {
-        // 👇️👇️👇️ add this 👇️👇️👇️
-        "fs": false,
-        "os": false,
-        "path": false,
-      }
-    }
-  }
-}
+  node: {
+    fs: 'empty',
+  },
+  // ...
+};
